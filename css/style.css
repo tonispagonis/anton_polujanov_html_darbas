@@ -1,5 +1,7 @@
 /* -----------------GENERAL------------------- */
-
+p {
+    color: grey;
+}
 /* -----------------HEADER-------------------- */
 header {
     display: flex;
@@ -19,16 +21,20 @@ header {
     margin-bottom: 5px;
 }
 
+header .nav-link {
+    padding-left: 25px;
+}
+
 header .nav-link-pink {
     color: rgb(198, 29, 178);
     padding-left: 25px;
 }
 
-header .nav-link {
-    padding-left: 25px;
-}
 /* ---------------HERO & TOP CTA-------------- */
-
+.hero {
+    display: flex;
+    
+}
 /* --------------MIDDLE SECTION--------------- */
 
 /* --------------CARDS SECTION---------------- */
