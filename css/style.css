@@ -229,16 +229,40 @@ header .nav-link-pink {
 /* --------------------FOOTER----------------- */
 footer {
     padding-top: 120px;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.footer__left {}
-.footer__right{}
+table {
+    text-align: left;
+}
+
+td {
+    padding: 6px 45px;
+    font-size: 16px;
+    color: grey;
+}
+
+th {
+    padding: 0 45px 20px; 
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(32, 30, 30);
+}
+
+.footer__left p {
+    font-size: 16px;
+}
 
 .footer__bottom { 
     display: flex;
     justify-content: space-between;
     padding-bottom: 71px;
+}
+
+.footer__bottom p {
+    font-size: 16px;
+    color: rgb(180, 180, 180);
 }
 
 .footer__logo {
