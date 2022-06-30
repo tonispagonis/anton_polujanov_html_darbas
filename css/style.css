@@ -6,9 +6,8 @@ header {
     margin-top: 70px;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid black;
     font-size: 20px;
-    
+    color: grey;
 }
 
 .header__logo {
@@ -20,8 +19,13 @@ header {
     margin-bottom: 5px;
 }
 
-.nav-link-pink {
-    color: pink;
+header .nav-link-pink {
+    color: rgb(198, 29, 178);
+    padding-left: 25px;
+}
+
+header .nav-link {
+    padding-left: 25px;
 }
 /* ---------------HERO & TOP CTA-------------- */
 
