@@ -1,6 +1,7 @@
 /* -----------------GENERAL------------------- */
 p {
     color: grey;
+    font-size: 19px;
 }
 
 .btn {
@@ -68,13 +69,14 @@ header .nav-link-pink {
 .hero__title {
     font-size: 80px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 25px;
 }
 
 .hero__text {
     font-size: 19px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    line-height: 1.6;
 }
 
 /* --------------MIDDLE SECTION--------------- */
@@ -192,12 +194,17 @@ header .nav-link-pink {
 /* -----------------BOTTOM CTA SECTION---------------- */
 .bottom-section {
     padding-top: 120px;
-    padding-bottom: 120px;
+    border-bottom: 3px solid rgb(234, 236, 239);
+    display: flex;
 }
 
 .bottom-section__left {
     text-align: left;
     width: 45%;
+}
+
+.bottom-section__right {
+    margin: 0 auto;
 }
 
 .bottom-section__pretitle {
@@ -209,17 +216,40 @@ header .nav-link-pink {
 
 .bottom-section__title {
     font-size: 50px;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 25px;
     margin: 0 auto;
 }
 
 .bottom-section__text {
     font-size: 19px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
+    line-height: 1.6;
 }
 /* --------------------FOOTER----------------- */
+footer {
+    padding-top: 120px;
+    
+}
 
+.footer__left {}
+.footer__right{}
+
+.footer__bottom { 
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 71px;
+}
+
+.footer__logo {
+    padding-bottom: 15px;
+}
+
+.footer__icons {
+    font-size: 25px;
+    color: grey;
+    padding-bottom: 120px;
+}
 /* ----------428px MOBILE RESPONSE------------ */
 @media screen and (max-width: 428px){
 
