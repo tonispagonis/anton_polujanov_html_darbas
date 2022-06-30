@@ -45,12 +45,17 @@ header .nav-link-pink {
 /* ---------------HERO & TOP CTA-------------- */
 .hero__section {
     display: flex;
-    margin-top: 182px;
+    
 }
 
 .hero__left {
     text-align: left;
     width: 620px;
+    margin-top: 182px;
+}
+
+.hero__right {
+    margin-top: 100px;
 }
 
 .hero__pretitle {
@@ -67,7 +72,7 @@ header .nav-link-pink {
 
 .hero__text {
     font-size: 19px;
-    padding-bottom: 24px;
+    padding-bottom: 20px;
 }
 
 .hero__img {
@@ -111,7 +116,8 @@ header .nav-link-pink {
     }
 
     .hero__left {
-        
+        display: flex;
+        align-items: left;
     }
 
     .hero__img {
