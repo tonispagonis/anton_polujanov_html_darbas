@@ -42,8 +42,8 @@ header .nav-link-pink {
     padding-left: 25px;
 }
 
-/* ---------------HERO SECTION-------------- */
-.hero__section {
+/* ---------------HERO / TOP CTA SECTION-------------- */
+.hero-section {
     display: flex;
     padding-bottom: 115px;
 }
@@ -78,14 +78,54 @@ header .nav-link-pink {
 /* --------------MIDDLE SECTION--------------- */
 .middle-section {
     height: 320px;
-    background-color: tomato;
+    background-image: linear-gradient(to right, rgb(212, 0, 152), rgb(211, 188, 210), rgb(50, 154, 229));
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
-.
-/* --------------CARDS SECTION---------------- */
+.middle-section__title {
+    font-size: 35px;
+    font-weight: 100;
+    margin-left: 60px;
+    text-align: left;
+    margin-top: 160px;
+    
+}
 
-/* -----------------BOTTOM CTA---------------- */
+.middle-section__text {
+    color: black;
+    font-size: 19px;
+    margin-left: 60px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.middle-section__logos {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+/* --------------CARDS SECTION---------------- */
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__title {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.cards__text {
+    font-size: 19px;
+}
+
+.card {
+    justify-content: space-between;
+}
+/* -----------------BOTTOM CTA SECTION---------------- */
 
 /* -----------------CONTACTS------------------ */
 
