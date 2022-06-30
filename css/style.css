@@ -59,15 +59,17 @@ header .nav-link-pink {
 }
 
 .hero__pretitle {
-    font-size: 19px;
-    font-weight: 500;
-    padding-top: 18px;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 auto;
     color: rgb(198, 29, 178);
 }
 
 .hero__title {
-    font-size: 78px;
-    padding-top: 24px;
+    font-size: 80px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 .hero__text {
@@ -111,6 +113,8 @@ header .nav-link-pink {
 .cards {
     display: flex;
     justify-content: space-between;
+    border-bottom: 3px solid rgb(234, 236, 239);
+    padding-bottom: 120px;
 }
 
 .cards__title {
@@ -127,7 +131,7 @@ header .nav-link-pink {
 
 .card {
     background-color: rgb(234, 236, 239);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .card__grid {
@@ -140,66 +144,80 @@ header .nav-link-pink {
 
 .item1 {
     grid-area: item1;
+    color: rgb(255, 132, 0);
+    font-size: 11px;
+    padding: 20px 24px 5px;
+    text-align: left;
 }
 
 .item2 {
     grid-area: item2;
+    font-size: 11px;
+    padding: 20px 24px 5px;
+    text-align: right;
+    color: grey;
 }
 
 .item3 {
     grid-area: item3;
+    color: black;
+    font-size: 17px;
+    padding: 5px 24px;
+    text-align: left;
 }
 
 .item4 {
     grid-area: item4;
+    color: black;
+    font-size: 17px;
+    padding: 5px 24px;
+    text-align: right;
 }
 
 .item5 {
     grid-area: item5;
+    font-size: 15px;
+    padding: 5px 24px 24px;
+    text-align: left;
+    color: grey;
 }
 
 .item6 {
     grid-area: item6;
-}
-
-.card__series {
-    color: orange;
-    font-size: 10px;
-}
-
-.card__bid {
-    font-size: 10px;
-}
-
-.card__name {
-  
-}
-
-.card__price {
-    color: black;
-    font-size: 17px;
-}
-
-.card__rank {
-}
-
-.card__bid-expiration {
     font-size: 15px;
+    padding: 5px 24px 24px;
+    text-align: right;
+    color: grey;
+}
+/* -----------------BOTTOM CTA SECTION---------------- */
+.bottom-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.card__series,
-.card__name,
-.card__rank,
-.card__bid,
-.card__price,
-.card__bid-expiration {
-    padding: 24px;
-} 
+.bottom-section__left {
+    text-align: left;
+    width: 45%;
+}
 
-/* -----------------BOTTOM CTA SECTION---------------- */
+.bottom-section__pretitle {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0 auto;
+    color: rgb(198, 29, 178);
+}
 
-/* -----------------CONTACTS------------------ */
+.bottom-section__title {
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin: 0 auto;
+}
 
+.bottom-section__text {
+    font-size: 19px;
+    padding-bottom: 20px;
+}
 /* --------------------FOOTER----------------- */
 
 /* ----------428px MOBILE RESPONSE------------ */
