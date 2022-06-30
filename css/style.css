@@ -119,15 +119,83 @@ header .nav-link-pink {
     display: block;
 }
 
-.cards__text {
+.cards__subtitle {
     font-size: 19px;
     display: block;
     padding-bottom: 40px;
 }
 
 .card {
-    
+    background-color: rgb(234, 236, 239);
+    border-radius: 10px;
 }
+
+.card__grid {
+    display: grid;
+    grid-template-areas: 
+    'item1 item2'
+    'item3 item4'
+    'item5 item6';
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.card__series {
+    color: orange;
+    font-size: 10px;
+}
+
+.card__bid {
+    font-size: 10px;
+}
+
+.card__name {
+  
+}
+
+.card__price {
+    color: black;
+    font-size: 17px;
+}
+
+.card__rank {
+}
+
+.card__bid-expiration {
+    font-size: 15px;
+}
+
+.card__series,
+.card__name,
+.card__rank,
+.card__bid,
+.card__price,
+.card__bid-expiration {
+    padding: 24px;
+} 
+
 /* -----------------BOTTOM CTA SECTION---------------- */
 
 /* -----------------CONTACTS------------------ */
