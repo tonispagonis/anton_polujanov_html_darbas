@@ -42,10 +42,10 @@ header .nav-link-pink {
     padding-left: 25px;
 }
 
-/* ---------------HERO & TOP CTA-------------- */
+/* ---------------HERO SECTION-------------- */
 .hero__section {
     display: flex;
-    
+    padding-bottom: 115px;
 }
 
 .hero__left {
@@ -75,12 +75,14 @@ header .nav-link-pink {
     padding-bottom: 20px;
 }
 
-.hero__img {
-   object-position: right top;
+/* --------------MIDDLE SECTION--------------- */
+.middle-section {
+    height: 320px;
+    background-color: tomato;
+    border-radius: 20px;
 }
 
-/* --------------MIDDLE SECTION--------------- */
-
+.
 /* --------------CARDS SECTION---------------- */
 
 /* -----------------BOTTOM CTA---------------- */
@@ -94,6 +96,7 @@ header .nav-link-pink {
 
     header {
         margin: 32px 32px;
+        text-align: left;
     }
   
     .header__nav {
@@ -116,8 +119,7 @@ header .nav-link-pink {
     }
 
     .hero__left {
-        display: flex;
-        align-items: left;
+      
     }
 
     .hero__img {
