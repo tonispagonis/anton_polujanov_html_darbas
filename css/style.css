@@ -6,10 +6,10 @@ p {
 
 .btn {
     font-size: 19px;
-    padding: 20px 50px;
+    padding: 25px 55px;
     background-color: white;
     border: 3px solid rgb(198, 29, 178);
-    border-radius: 35px;
+    border-radius: 40px;
 }
 /* ----------------------HEADER---------------------- */
 header {
@@ -291,26 +291,58 @@ th {
         font-size: 25px;
     }
 /* ---------------HERO / TOP CTA SECTION-------------- */
+    .hero-section {
+        padding-bottom: 90px;
+    }
+
     .hero__left {
         text-align: left;
         margin-left: 32px;
-    }
-
-    .hero__pretitle {
-
+        margin-top: 50px;
+        width: 80%;
     }
 
     .hero__title {
-        font-size: 50px;
+        font-size: 45px;
+    }
+
+    .hero__text {
+        width: 81%;
+        margin-bottom: 10px;
     }
 
     .hero__img {
         display: none;
     }
+
+    .hero__right {
+        width: 20px;
+        background-image: url(../img/hero.png);
+    }
 /* -------------------MIDDLE SECTION------------------ */
+    .middle-section {
+        border-radius: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .middle-section__title {
+        
+    }
+
+    .middle-section__text {
+    }
+
+    .middle-section__logos {
+        padding: 70px 32px 70px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .odd-logo {
         display: none;
     }
+
 /* ----------------CARDS SECTION---------------------- */
 
 /* -----------------BOTTOM CTA SECTION---------------- */
