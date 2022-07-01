@@ -1,4 +1,4 @@
-/* -----------------GENERAL------------------- */
+/* ----------------------GENERAL--------------------- */
 p {
     color: grey;
     font-size: 19px;
@@ -11,7 +11,7 @@ p {
     border: 3px solid rgb(198, 29, 178);
     border-radius: 35px;
 }
-/* -----------------HEADER-------------------- */
+/* ----------------------HEADER---------------------- */
 header {
     display: flex;
     margin-top: 70px;
@@ -79,7 +79,7 @@ header .nav-link-pink {
     line-height: 1.6;
 }
 
-/* --------------MIDDLE SECTION--------------- */
+/* --------------------MIDDLE SECTION---------------- */
 .middle-section {
     height: 320px;
     background-image: linear-gradient(to right, rgb(212, 0, 152), rgb(211, 188, 210), rgb(50, 154, 229));
@@ -111,7 +111,7 @@ header .nav-link-pink {
     padding-top: 140px;
     padding-bottom: 140px;
 }
-/* --------------CARDS SECTION---------------- */
+/* --------------------CARDS SECTION----------------- */
 .cards {
     display: flex;
     justify-content: space-between;
@@ -226,7 +226,7 @@ header .nav-link-pink {
     padding-bottom: 25px;
     line-height: 1.6;
 }
-/* --------------------FOOTER----------------- */
+/* -----------------------FOOTER----------------------- */
 footer {
     padding-top: 120px;
     display: grid;
@@ -274,9 +274,9 @@ th {
     color: grey;
     padding-bottom: 120px;
 }
-/* ----------428px MOBILE RESPONSE------------ */
+/* -----------------------------428px MOBILE RESPONSE-------------------------- */
 @media screen and (max-width: 428px){
-
+/* ----------------------HEADER----------------------- */
     header {
         margin: 32px 32px;
         text-align: left;
@@ -290,40 +290,31 @@ th {
         display: flex;
         font-size: 25px;
     }
-
-    .hero__section {
-        background-image: url(../img/hero.png);
-    }
-
+/* ---------------HERO / TOP CTA SECTION-------------- */
     .hero__left {
-      display: flex;
-      flex-direction: column;
-      width: 50%;
-      margin-left: 32px;
+        text-align: left;
+        margin-left: 32px;
     }
 
-    .hero__img {
-        display: none;
+    .hero__pretitle {
+
     }
 
     .hero__title {
         font-size: 50px;
     }
 
-    .middle-section__logos {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: 0 32px;
+    .hero__img {
+        display: none;
     }
-
+/* -------------------MIDDLE SECTION------------------ */
     .odd-logo {
         display: none;
     }
+/* ----------------CARDS SECTION---------------------- */
 
-    .cards {
-        display: none;
-        background-image: url(../img/nft-1.svg);
-    }
-  
+/* -----------------BOTTOM CTA SECTION---------------- */
+
+/* -----------------------FOOTER---------------------- */  
+
 }
