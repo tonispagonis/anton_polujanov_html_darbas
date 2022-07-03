@@ -382,6 +382,6 @@ th {
     object-position: 20px;
   }
 /* -----------------------FOOTER---------------------- */  
- 
+ footer {display: none;}
 
 }
