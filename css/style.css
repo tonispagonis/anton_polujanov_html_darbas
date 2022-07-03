@@ -139,6 +139,10 @@ header .nav-link-pink {
     padding-bottom: 40px;
 }
 
+.hidden-img {
+    display: none;
+}
+
 .card {
     background-color: rgb(234, 236, 239);
     border-radius: 15px;
@@ -239,6 +243,7 @@ footer {
     padding-top: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
 
 table {
@@ -286,6 +291,11 @@ th {
     font-size: 25px;
     color: grey;
     padding-bottom: 120px;
+}
+
+.copyright-right {
+    position: absolute;
+    right: 0px;
 }
 
 /* -----------------------------428px MOBILE RESPONSE-------------------------- */
@@ -361,7 +371,13 @@ th {
 
   .cards-wrapper {
       margin: 32px 32px;
-    
+  }
+
+  .hidden-img {
+      display: flex;
+      border-bottom: 3px solid rgb(234, 236, 239);
+      padding-bottom: 50px;
+
   }
 
   .cards__title, .cards__subtitle {
@@ -382,6 +398,20 @@ th {
     object-position: 20px;
   }
 /* -----------------------FOOTER---------------------- */  
- footer {display: none;}
+ .footer__bottom {
+     width: 250px;
+     margin-left: 32px;
+     display: none;
+ }
+
+ .footer__left {
+     margin-left: 32px;
+     text-align: left;
+ }
+
+ .footer__right {
+     display: none;
+
+}
 
 }
