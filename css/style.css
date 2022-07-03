@@ -123,6 +123,10 @@ header .nav-link-pink {
     padding-bottom: 120px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .cards__title {
     font-size: 35px;
     font-weight: 100;
@@ -241,6 +245,10 @@ table {
     text-align: left;
 }
 
+.copyright-right {
+    
+}
+
 td {
     padding: 6px 45px;
     font-size: 16px;
@@ -262,6 +270,7 @@ th {
     display: flex;
     justify-content: space-between;
     padding-bottom: 71px;
+    position: relative;
 }
 
 .footer__bottom p {
@@ -278,6 +287,7 @@ th {
     color: grey;
     padding-bottom: 120px;
 }
+
 /* -----------------------------428px MOBILE RESPONSE-------------------------- */
 @media screen and (max-width: 428px){
 /* ----------------------HEADER----------------------- */
@@ -327,7 +337,7 @@ th {
     .middle-section {
         border-radius: 0;
         display: flex;
-        align-items: center;
+        text-align: center;
     }
 
     .middle-section__logos {
@@ -345,9 +355,33 @@ th {
     }
 
 /* ----------------CARDS SECTION---------------------- */
-  
-/* -----------------BOTTOM CTA SECTION---------------- */
+  .cards {
+    display: none;
+  }
 
+  .cards-wrapper {
+      margin: 32px 32px;
+    
+  }
+
+  .cards__title, .cards__subtitle {
+      line-height: 1.6;
+  }
+/* -----------------BOTTOM CTA SECTION---------------- */
+  .bottom-section__left {
+      margin: 32px 32px;
+      width: fit-content;
+  }
+
+  .bottom-section__right {
+      display: flex;
+      align-items: flex-end;
+  }
+
+  .bottom-section__right img {
+    object-position: 20px;
+  }
 /* -----------------------FOOTER---------------------- */  
+ 
 
 }
